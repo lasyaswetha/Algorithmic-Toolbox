@@ -5,6 +5,7 @@ def max_pairwise_product(numbers):
     n = len(numbers)
     numbers.sort(reverse=True)
     max_product=numbers[0]*numbers[1]
+    max_product=max_product+0
 
 
     return max_product
